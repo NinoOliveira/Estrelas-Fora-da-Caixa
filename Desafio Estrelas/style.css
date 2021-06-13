@@ -1,0 +1,76 @@
+body {
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 90%;
+    height: 1024px;
+    align-items: center;
+}
+
+.bg {
+	background-image: url("img/wallpaper.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h3 {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+  
+img {
+    width: 250px;
+    height: 280px;
+}
+  
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+  
+.imagem {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    margin-top: 0%;
+}
+  
+  .imagem li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2 px solid #0f0d0daf;
+    border-radius: 10px;
+    background-color: #658b8b;
+  }
+  
+  .imagem li:hover {
+    border-color: #4b442b;
+  }
+  
+  .imagem li:hover h2 {
+    font-size: 30px;
+    margin-top: 3rem;
+  }
+  
+  .imagem h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  
+  /* .imagem-descricao {
+    font-size: 16px;
+  } */
+  
