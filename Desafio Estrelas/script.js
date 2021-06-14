@@ -2,21 +2,24 @@ const img1 = document.querySelector('#img01 > img');
 const img2 = document.querySelector('#img02 > img');
 const img3 = document.querySelector('#img03 > img');
 const img4 = document.querySelector('#img04 > img');
-// ----------------------------------------------------- Variaveis imagem (acima) e nome (abaixo)
+// Variaveis imagem (acima) e nome (abaixo)
 const nome1 = document.querySelector('#img01 > h2');
 const nome2 = document.querySelector('#img02 > h2');
 const nome3 = document.querySelector('#img03 > h2');
 const nome4 = document.querySelector('#img04 > h2');
 
+// Função responsavel por gerar personagem aleatoriamente
 gerarPersona = () => {
-  return Math.floor(Math.random() * 671) + 1;
+  return Math.floor(Math.random() * 671) - 1;
 };
 
+// Função responsavel pela atualização da página
 function Atualizar() {
     window.location.reload();
 }
 
-personagem = () => {
+// Função que retorna o valor e nome da imagem a exibida na index
+persona = () => {
   return fetch(
     `https://rickandmortyapi.com/api/character/${gerarPersona()},${gerarPersona()},${gerarPersona()},${gerarPersona()}`,
     {
@@ -40,7 +43,8 @@ personagem = () => {
     });
 };
 
+// Função para iniciar o evento
 window.addEventListener('load', () => {
-  personagem();
+  persona();
 })
-document.onload = personagem();
+document.onload = persona();

@@ -1,17 +1,17 @@
 body {
     background-repeat: no-repeat;
     position: fixed;
-    width: 90%;
+    width: auto%;
     height: 1024px;
     align-items: center;
-}
+}/*Estilização do corpo do projeto */
 
 .bg {
 	background-image: url("img/wallpaper.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-}
+}/*imagem de bacgroud, comandos para centralizar, fixar no centro e nao replicar.*/
 
 h3 {
     padding: 5px;
@@ -20,12 +20,12 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     color: white;
-}
+}/*Formato escrita para texto no cabeçalho. */
   
 img {
-    width: 250px;
+    width: 235px;
     height: 280px;
-}
+}/*Dimenssão da imagem do personagem */
   
 .logo img {
     display: block;
@@ -33,16 +33,16 @@ img {
     margin-right: auto;
     width: 30%;
     height: 10%;
-}
+}/*Imagem sobreposta ao backgroud situada no cabeçalho da pagina */
   
 .imagem {
-    width: 1500px;
+    width: 1366px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 45px 0;
     margin-top: 0%;
-}
+} /*Dimenssões da classe a ser exibida na tela.*/
   
-  .imagem li {
+.imagem li {
     display: inline-block;
     text-align: center;
     width: 20%;
@@ -52,25 +52,11 @@ img {
     box-sizing: border-box;
     border: 2 px solid #0f0d0daf;
     border-radius: 10px;
-    background-color: #658b8b;
-  }
-  
-  .imagem li:hover {
-    border-color: #4b442b;
-  }
-  
-  .imagem li:hover h2 {
-    font-size: 30px;
-    margin-top: 3rem;
-  }
+    background-color: #008080;
+}/*Tamanho e estilização da li */
   
   .imagem h2 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 2rem;
-  }
-  
-  /* .imagem-descricao {
-    font-size: 16px;
-  } */
-  
+  }/*Texto exibido com nome do personagem */
