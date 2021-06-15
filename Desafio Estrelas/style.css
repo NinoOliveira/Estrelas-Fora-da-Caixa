@@ -36,8 +36,8 @@ img {
 }/*Imagem sobreposta ao backgroud situada no cabeçalho da pagina */
   
 .imagem {
-    width: 1366px;
-    margin: 0 auto;
+    width: 1386px;
+    margin: 30px;
     padding: 45px 0;
     margin-top: 0%;
 } /*Dimenssões da classe a ser exibida na tela.*/
